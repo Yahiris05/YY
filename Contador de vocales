@@ -1,0 +1,13 @@
+#Realizar un programa que debe de imprimir un nombre si tienes vocales o mas.
+
+vocales= ("a", "e","i","o","u","A","E","I", "0","U")
+nombre= input("Ingrese su nombre: ")
+contador= 0
+
+for i in nombre:
+  if i in vocales:
+    contador+=1  
+if contador >= 3:
+    print(nombre)
+else: 
+ print("El nombre tiene menos de 3 vocales")
